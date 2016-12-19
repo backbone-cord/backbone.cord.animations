@@ -1,0 +1,28 @@
+{
+  "name": "backbone.cord.animations",
+  "version": "1.0.0",
+  "description": "All of the animations from animate.css implemented as cord animations.",
+  "keywords": [
+    "backbone",
+    "backbone.cord",
+    "animations",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "backbone.cord": ">=1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "backbone-cord/backbone.cord.animations",
+  "homepage": "https://github.com/backbone-cord/backbone.cord.animations",
+  "bugs": {
+    "url": "https://github.com/backbone-cord/backbone.cord.animations/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "animate.css": ">=3.0.0",
+    "css": "^2.2.1",
+    "glob": "^7.1.1"
+  }
+}
