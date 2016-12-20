@@ -14,7 +14,7 @@ var optionsMap = {
 };
 
 var header = ";(function() {\n'use strict';\n\nvar _module = ";
-var footer = "\n\nif(typeof define === 'function' && define.amd) {\n\tdefine(_module);\n}\nelse if (typeof exports === 'object') {\n\tmodule.exports = _module;\n}\nelse {\n\twindow.MyModuleName = _module;\n}\n})();\n";
+var footer = ";\n\nif(typeof define === 'function' && define.amd) {\n\tdefine(_module);\n}\nelse if (typeof exports === 'object') {\n\tmodule.exports = _module;\n}\nelse {\n\twindow.MyModuleName = _module;\n}\n})();\n";
 
 function parseCSS(name, str) {
 	var i, j, k, parsed, rules, keyframes, keys, declarations, keyframe;
@@ -63,11 +63,17 @@ function parseCSS(name, str) {
 	return animation;
 }
 
+var indexCount = 0;
+var index = {};
+
 function readFileHandler(name) {
 	return function(err, data) {
 		var animation = parseCSS(name, data.toString());
 		console.log(name);
 		fs.writeFile(path.join(dest, name + '.js'), header + JSON.stringify(animation, null, '\t') + footer.replace('MyModuleName', name), function(err) {});
+		index[name] = animation;
+		if(Object.keys(index).length === indexCount)
+			fs.writeFile('index.js', header + JSON.stringify(index, null, '\t') + footer.replace('MyModuleName', 'animations'), function(err) {});
 	};
 }
 
@@ -78,6 +84,7 @@ function globAnimations(err) {
 			name = path.basename(files[i], '.css');
 			if(name[0] === '_')
 				continue;
+			++indexCount;
 			fs.readFile(files[i], readFileHandler(name));
 		}
 	});
