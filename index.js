@@ -2,43 +2,6 @@
 'use strict';
 
 var _module = {
-	"bounce": {
-		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
-			"transform": "translate3d(0,0,0)"
-		},
-		"20%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
-			"transform": "translate3d(0,0,0)"
-		},
-		"53%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
-			"transform": "translate3d(0,0,0)"
-		},
-		"80%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
-			"transform": "translate3d(0,0,0)"
-		},
-		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
-			"transform": "translate3d(0,0,0)"
-		},
-		"40%": {
-			"animation-timing-function": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
-			"transform": "translate3d(0, -30px, 0)"
-		},
-		"43%": {
-			"animation-timing-function": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
-			"transform": "translate3d(0, -30px, 0)"
-		},
-		"70%": {
-			"animation-timing-function": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
-			"transform": "translate3d(0, -15px, 0)"
-		},
-		"90%": {
-			"transform": "translate3d(0,-4px,0)"
-		}
-	},
 	"flash": {
 		"from": {
 			"opacity": "1"
@@ -54,6 +17,43 @@ var _module = {
 		},
 		"75%": {
 			"opacity": "0"
+		}
+	},
+	"bounce": {
+		"from": {
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"transform": "translate3d(0,0,0)"
+		},
+		"20%": {
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"transform": "translate3d(0,0,0)"
+		},
+		"53%": {
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"transform": "translate3d(0,0,0)"
+		},
+		"80%": {
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"transform": "translate3d(0,0,0)"
+		},
+		"to": {
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"transform": "translate3d(0,0,0)"
+		},
+		"40%": {
+			"animationTimingFunction": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
+			"transform": "translate3d(0, -30px, 0)"
+		},
+		"43%": {
+			"animationTimingFunction": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
+			"transform": "translate3d(0, -30px, 0)"
+		},
+		"70%": {
+			"animationTimingFunction": "cubic-bezier(0.755, 0.050, 0.855, 0.060)",
+			"transform": "translate3d(0, -15px, 0)"
+		},
+		"90%": {
+			"transform": "translate3d(0,-4px,0)"
 		}
 	},
 	"headShake": {
@@ -112,17 +112,6 @@ var _module = {
 			"transform": "skewX(-0.1953125deg) skewY(-0.1953125deg)"
 		}
 	},
-	"pulse": {
-		"from": {
-			"transform": "scale3d(1, 1, 1)"
-		},
-		"to": {
-			"transform": "scale3d(1, 1, 1)"
-		},
-		"50%": {
-			"transform": "scale3d(1.05, 1.05, 1.05)"
-		}
-	},
 	"rubberBand": {
 		"from": {
 			"transform": "scale3d(1, 1, 1)"
@@ -144,6 +133,17 @@ var _module = {
 		},
 		"75%": {
 			"transform": "scale3d(1.05, .95, 1)"
+		}
+	},
+	"pulse": {
+		"from": {
+			"transform": "scale3d(1, 1, 1)"
+		},
+		"to": {
+			"transform": "scale3d(1, 1, 1)"
+		},
+		"50%": {
+			"transform": "scale3d(1.05, 1.05, 1.05)"
 		}
 	},
 	"shake": {
@@ -259,126 +259,126 @@ var _module = {
 	},
 	"bounceIn": {
 		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "0",
 			"transform": "scale3d(.3, .3, .3)"
 		},
 		"20%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "scale3d(1.1, 1.1, 1.1)"
 		},
 		"40%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "scale3d(.9, .9, .9)"
 		},
 		"60%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "scale3d(1.03, 1.03, 1.03)"
 		},
 		"80%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "scale3d(.97, .97, .97)"
 		},
 		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "scale3d(1, 1, 1)"
 		}
 	},
 	"bounceInDown": {
 		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "0",
 			"transform": "translate3d(0, -3000px, 0)"
 		},
 		"60%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "translate3d(0, 25px, 0)"
 		},
 		"75%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(0, -10px, 0)"
 		},
 		"90%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(0, 5px, 0)"
 		},
 		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "none"
 		}
 	},
 	"bounceInLeft": {
 		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "0",
 			"transform": "translate3d(-3000px, 0, 0)"
 		},
 		"60%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "translate3d(25px, 0, 0)"
 		},
 		"75%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(-10px, 0, 0)"
 		},
 		"90%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(5px, 0, 0)"
 		},
 		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "none"
 		}
 	},
 	"bounceInRight": {
 		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "0",
 			"transform": "translate3d(3000px, 0, 0)"
 		},
 		"60%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "translate3d(-25px, 0, 0)"
 		},
 		"75%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(10px, 0, 0)"
 		},
 		"90%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(-5px, 0, 0)"
 		},
 		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "none"
 		}
 	},
 	"bounceInUp": {
 		"from": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "0",
 			"transform": "translate3d(0, 3000px, 0)"
 		},
 		"60%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"opacity": "1",
 			"transform": "translate3d(0, -20px, 0)"
 		},
 		"75%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(0, 10px, 0)"
 		},
 		"90%": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(0, -5px, 0)"
 		},
 		"to": {
-			"animation-timing-function": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
+			"animationTimingFunction": "cubic-bezier(0.215, 0.610, 0.355, 1.000)",
 			"transform": "translate3d(0, 0, 0)"
 		}
 	},
@@ -629,29 +629,29 @@ var _module = {
 	"flip": {
 		"from": {
 			"transform": "perspective(400px) rotate3d(0, 1, 0, -360deg)",
-			"animation-timing-function": "ease-out"
+			"animationTimingFunction": "ease-out"
 		},
 		"to": {
 			"transform": "perspective(400px)",
-			"animation-timing-function": "ease-in"
+			"animationTimingFunction": "ease-in"
 		},
 		"40%": {
 			"transform": "perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)",
-			"animation-timing-function": "ease-out"
+			"animationTimingFunction": "ease-out"
 		},
 		"50%": {
 			"transform": "perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)",
-			"animation-timing-function": "ease-in"
+			"animationTimingFunction": "ease-in"
 		},
 		"80%": {
 			"transform": "perspective(400px) scale3d(.95, .95, .95)",
-			"animation-timing-function": "ease-in"
+			"animationTimingFunction": "ease-in"
 		}
 	},
 	"flipInX": {
 		"from": {
 			"transform": "perspective(400px) rotate3d(1, 0, 0, 90deg)",
-			"animation-timing-function": "ease-in",
+			"animationTimingFunction": "ease-in",
 			"opacity": "0"
 		},
 		"to": {
@@ -659,7 +659,7 @@ var _module = {
 		},
 		"40%": {
 			"transform": "perspective(400px) rotate3d(1, 0, 0, -20deg)",
-			"animation-timing-function": "ease-in"
+			"animationTimingFunction": "ease-in"
 		},
 		"60%": {
 			"transform": "perspective(400px) rotate3d(1, 0, 0, 10deg)",
@@ -672,7 +672,7 @@ var _module = {
 	"flipInY": {
 		"from": {
 			"transform": "perspective(400px) rotate3d(0, 1, 0, 90deg)",
-			"animation-timing-function": "ease-in",
+			"animationTimingFunction": "ease-in",
 			"opacity": "0"
 		},
 		"to": {
@@ -680,7 +680,7 @@ var _module = {
 		},
 		"40%": {
 			"transform": "perspective(400px) rotate3d(0, 1, 0, -20deg)",
-			"animation-timing-function": "ease-in"
+			"animationTimingFunction": "ease-in"
 		},
 		"60%": {
 			"transform": "perspective(400px) rotate3d(0, 1, 0, 10deg)",
@@ -751,115 +751,115 @@ var _module = {
 	},
 	"rotateIn": {
 		"from": {
-			"transform-origin": "center",
+			"transformOrigin": "center",
 			"transform": "rotate3d(0, 0, 1, -200deg)",
 			"opacity": "0"
 		},
 		"to": {
-			"transform-origin": "center",
+			"transformOrigin": "center",
 			"transform": "none",
 			"opacity": "1"
 		}
 	},
 	"rotateInDownLeft": {
 		"from": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "left bottom",
 			"transform": "rotate3d(0, 0, 1, -45deg)",
 			"opacity": "0"
 		},
 		"to": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "left bottom",
 			"transform": "none",
 			"opacity": "1"
 		}
 	},
 	"rotateInDownRight": {
 		"from": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
 			"transform": "rotate3d(0, 0, 1, 45deg)",
 			"opacity": "0"
 		},
 		"to": {
-			"transform-origin": "right bottom",
-			"transform": "none",
-			"opacity": "1"
-		}
-	},
-	"rotateInUpLeft": {
-		"from": {
-			"transform-origin": "left bottom",
-			"transform": "rotate3d(0, 0, 1, 45deg)",
-			"opacity": "0"
-		},
-		"to": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "right bottom",
 			"transform": "none",
 			"opacity": "1"
 		}
 	},
 	"rotateInUpRight": {
 		"from": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
 			"transform": "rotate3d(0, 0, 1, -90deg)",
 			"opacity": "0"
 		},
 		"to": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
+			"transform": "none",
+			"opacity": "1"
+		}
+	},
+	"rotateInUpLeft": {
+		"from": {
+			"transformOrigin": "left bottom",
+			"transform": "rotate3d(0, 0, 1, 45deg)",
+			"opacity": "0"
+		},
+		"to": {
+			"transformOrigin": "left bottom",
 			"transform": "none",
 			"opacity": "1"
 		}
 	},
 	"rotateOut": {
 		"from": {
-			"transform-origin": "center",
+			"transformOrigin": "center",
 			"opacity": "1"
 		},
 		"to": {
-			"transform-origin": "center",
+			"transformOrigin": "center",
 			"transform": "rotate3d(0, 0, 1, 200deg)",
+			"opacity": "0"
+		}
+	},
+	"rotateOutUpLeft": {
+		"from": {
+			"transformOrigin": "left bottom",
+			"opacity": "1"
+		},
+		"to": {
+			"transformOrigin": "left bottom",
+			"transform": "rotate3d(0, 0, 1, -45deg)",
 			"opacity": "0"
 		}
 	},
 	"rotateOutDownLeft": {
 		"from": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "left bottom",
 			"opacity": "1"
 		},
 		"to": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "left bottom",
 			"transform": "rotate3d(0, 0, 1, 45deg)",
 			"opacity": "0"
 		}
 	},
 	"rotateOutDownRight": {
 		"from": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
 			"opacity": "1"
 		},
 		"to": {
-			"transform-origin": "right bottom",
-			"transform": "rotate3d(0, 0, 1, -45deg)",
-			"opacity": "0"
-		}
-	},
-	"rotateOutUpLeft": {
-		"from": {
-			"transform-origin": "left bottom",
-			"opacity": "1"
-		},
-		"to": {
-			"transform-origin": "left bottom",
+			"transformOrigin": "right bottom",
 			"transform": "rotate3d(0, 0, 1, -45deg)",
 			"opacity": "0"
 		}
 	},
 	"rotateOutUpRight": {
 		"from": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
 			"opacity": "1"
 		},
 		"to": {
-			"transform-origin": "right bottom",
+			"transformOrigin": "right bottom",
 			"transform": "rotate3d(0, 0, 1, 90deg)",
 			"opacity": "0"
 		}
@@ -867,15 +867,6 @@ var _module = {
 	"slideInDown": {
 		"from": {
 			"transform": "translate3d(0, -100%, 0)",
-			"visibility": "visible"
-		},
-		"to": {
-			"transform": "translate3d(0, 0, 0)"
-		}
-	},
-	"slideInLeft": {
-		"from": {
-			"transform": "translate3d(-100%, 0, 0)",
 			"visibility": "visible"
 		},
 		"to": {
@@ -891,22 +882,13 @@ var _module = {
 			"transform": "translate3d(0, 0, 0)"
 		}
 	},
-	"slideInUp": {
+	"slideInLeft": {
 		"from": {
-			"transform": "translate3d(0, 100%, 0)",
+			"transform": "translate3d(-100%, 0, 0)",
 			"visibility": "visible"
 		},
 		"to": {
 			"transform": "translate3d(0, 0, 0)"
-		}
-	},
-	"slideOutDown": {
-		"from": {
-			"transform": "translate3d(0, 0, 0)"
-		},
-		"to": {
-			"visibility": "hidden",
-			"transform": "translate3d(0, 100%, 0)"
 		}
 	},
 	"slideOutLeft": {
@@ -927,6 +909,24 @@ var _module = {
 			"transform": "translate3d(100%, 0, 0)"
 		}
 	},
+	"slideOutDown": {
+		"from": {
+			"transform": "translate3d(0, 0, 0)"
+		},
+		"to": {
+			"visibility": "hidden",
+			"transform": "translate3d(0, 100%, 0)"
+		}
+	},
+	"slideInUp": {
+		"from": {
+			"transform": "translate3d(0, 100%, 0)",
+			"visibility": "visible"
+		},
+		"to": {
+			"transform": "translate3d(0, 0, 0)"
+		}
+	},
 	"slideOutUp": {
 		"from": {
 			"transform": "translate3d(0, 0, 0)"
@@ -934,38 +934,6 @@ var _module = {
 		"to": {
 			"visibility": "hidden",
 			"transform": "translate3d(0, -100%, 0)"
-		}
-	},
-	"hinge": {
-		"0%": {
-			"transform-origin": "top left",
-			"animation-timing-function": "ease-in-out"
-		},
-		"to": {
-			"transform": "translate3d(0, 700px, 0)",
-			"opacity": "0"
-		},
-		"20%": {
-			"transform": "rotate3d(0, 0, 1, 80deg)",
-			"transform-origin": "top left",
-			"animation-timing-function": "ease-in-out"
-		},
-		"60%": {
-			"transform": "rotate3d(0, 0, 1, 80deg)",
-			"transform-origin": "top left",
-			"animation-timing-function": "ease-in-out"
-		},
-		"40%": {
-			"transform": "rotate3d(0, 0, 1, 60deg)",
-			"transform-origin": "top left",
-			"animation-timing-function": "ease-in-out",
-			"opacity": "1"
-		},
-		"80%": {
-			"transform": "rotate3d(0, 0, 1, 60deg)",
-			"transform-origin": "top left",
-			"animation-timing-function": "ease-in-out",
-			"opacity": "1"
 		}
 	},
 	"rollIn": {
@@ -978,6 +946,38 @@ var _module = {
 			"transform": "none"
 		}
 	},
+	"hinge": {
+		"0%": {
+			"transformOrigin": "top left",
+			"animationTimingFunction": "ease-in-out"
+		},
+		"to": {
+			"transform": "translate3d(0, 700px, 0)",
+			"opacity": "0"
+		},
+		"20%": {
+			"transform": "rotate3d(0, 0, 1, 80deg)",
+			"transformOrigin": "top left",
+			"animationTimingFunction": "ease-in-out"
+		},
+		"60%": {
+			"transform": "rotate3d(0, 0, 1, 80deg)",
+			"transformOrigin": "top left",
+			"animationTimingFunction": "ease-in-out"
+		},
+		"40%": {
+			"transform": "rotate3d(0, 0, 1, 60deg)",
+			"transformOrigin": "top left",
+			"animationTimingFunction": "ease-in-out",
+			"opacity": "1"
+		},
+		"80%": {
+			"transform": "rotate3d(0, 0, 1, 60deg)",
+			"transformOrigin": "top left",
+			"animationTimingFunction": "ease-in-out",
+			"opacity": "1"
+		}
+	},
 	"rollOut": {
 		"from": {
 			"opacity": "1"
@@ -985,6 +985,32 @@ var _module = {
 		"to": {
 			"opacity": "0",
 			"transform": "translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)"
+		}
+	},
+	"zoomInDown": {
+		"from": {
+			"opacity": "0",
+			"transform": "scale3d(.1, .1, .1) translate3d(0, -1000px, 0)",
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+		},
+		"to": {},
+		"60%": {
+			"opacity": "1",
+			"transform": "scale3d(.475, .475, .475) translate3d(0, 60px, 0)",
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
+		}
+	},
+	"zoomInRight": {
+		"from": {
+			"opacity": "0",
+			"transform": "scale3d(.1, .1, .1) translate3d(1000px, 0, 0)",
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+		},
+		"to": {},
+		"60%": {
+			"opacity": "1",
+			"transform": "scale3d(.475, .475, .475) translate3d(-10px, 0, 0)",
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
 		}
 	},
 	"zoomIn": {
@@ -997,56 +1023,44 @@ var _module = {
 			"opacity": "1"
 		}
 	},
-	"zoomInDown": {
-		"from": {
-			"opacity": "0",
-			"transform": "scale3d(.1, .1, .1) translate3d(0, -1000px, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
-		},
-		"to": {},
-		"60%": {
-			"opacity": "1",
-			"transform": "scale3d(.475, .475, .475) translate3d(0, 60px, 0)",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
-		}
-	},
 	"zoomInLeft": {
 		"from": {
 			"opacity": "0",
 			"transform": "scale3d(.1, .1, .1) translate3d(-1000px, 0, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
 		},
 		"to": {},
 		"60%": {
 			"opacity": "1",
 			"transform": "scale3d(.475, .475, .475) translate3d(10px, 0, 0)",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
 		}
 	},
-	"zoomInRight": {
-		"from": {
-			"opacity": "0",
-			"transform": "scale3d(.1, .1, .1) translate3d(1000px, 0, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
-		},
-		"to": {},
-		"60%": {
+	"zoomOutDown": {
+		"40%": {
 			"opacity": "1",
-			"transform": "scale3d(.475, .475, .475) translate3d(-10px, 0, 0)",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
+			"transform": "scale3d(.475, .475, .475) translate3d(0, -60px, 0)",
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+		},
+		"from": {},
+		"to": {
+			"opacity": "0",
+			"transform": "scale3d(.1, .1, .1) translate3d(0, 2000px, 0)",
+			"transformOrigin": "center bottom",
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
 		}
 	},
 	"zoomInUp": {
 		"from": {
 			"opacity": "0",
 			"transform": "scale3d(.1, .1, .1) translate3d(0, 1000px, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
 		},
 		"to": {},
 		"60%": {
 			"opacity": "1",
 			"transform": "scale3d(.475, .475, .475) translate3d(0, -60px, 0)",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
 		}
 	},
 	"zoomOut": {
@@ -1061,20 +1075,6 @@ var _module = {
 			"transform": "scale3d(.3, .3, .3)"
 		}
 	},
-	"zoomOutDown": {
-		"40%": {
-			"opacity": "1",
-			"transform": "scale3d(.475, .475, .475) translate3d(0, -60px, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
-		},
-		"from": {},
-		"to": {
-			"opacity": "0",
-			"transform": "scale3d(.1, .1, .1) translate3d(0, 2000px, 0)",
-			"transform-origin": "center bottom",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
-		}
-	},
 	"zoomOutLeft": {
 		"40%": {
 			"opacity": "1",
@@ -1084,7 +1084,7 @@ var _module = {
 		"to": {
 			"opacity": "0",
 			"transform": "scale(.1) translate3d(-2000px, 0, 0)",
-			"transform-origin": "left center"
+			"transformOrigin": "left center"
 		}
 	},
 	"zoomOutRight": {
@@ -1096,21 +1096,21 @@ var _module = {
 		"to": {
 			"opacity": "0",
 			"transform": "scale(.1) translate3d(2000px, 0, 0)",
-			"transform-origin": "right center"
+			"transformOrigin": "right center"
 		}
 	},
 	"zoomOutUp": {
 		"40%": {
 			"opacity": "1",
 			"transform": "scale3d(.475, .475, .475) translate3d(0, 60px, 0)",
-			"animation-timing-function": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
+			"animationTimingFunction": "cubic-bezier(0.550, 0.055, 0.675, 0.190)"
 		},
 		"from": {},
 		"to": {
 			"opacity": "0",
 			"transform": "scale3d(.1, .1, .1) translate3d(0, -2000px, 0)",
-			"transform-origin": "center bottom",
-			"animation-timing-function": "cubic-bezier(0.175, 0.885, 0.320, 1)"
+			"transformOrigin": "center bottom",
+			"animationTimingFunction": "cubic-bezier(0.175, 0.885, 0.320, 1)"
 		}
 	}
 };

@@ -16,6 +16,11 @@ var optionsMap = {
 var header = ";(function() {\n'use strict';\n\nvar _module = ";
 var footer = ";\n\nif(typeof define === 'function' && define.amd) {\n\tdefine(_module);\n}\nelse if (typeof exports === 'object') {\n\tmodule.exports = _module;\n}\nelse {\n\twindow.MyModuleName = _module;\n}\n})();\n";
 
+function dashToCamelCase(str) {
+	str = str.replace(/\b[^\s-]*/g, function(s) { return s.charAt(0).toUpperCase() + s.substr(1).toLowerCase(); }).replace(/-/g,'');
+	return str.charAt(0).toLowerCase() + str.substr(1);
+}
+
 function parseCSS(name, str) {
 	var i, j, k, parsed, rules, keyframes, keys, declarations, keyframe;
 	var prop, value;
@@ -31,7 +36,7 @@ function parseCSS(name, str) {
 				keys = keyframes[j].values;
 				keyframe = {};
 				for(k = 0; k < declarations.length; ++k)
-					keyframe[declarations[k].property] = declarations[k].value;
+					keyframe[dashToCamelCase(declarations[k].property)] = declarations[k].value;
 				for(k = 0; k < keys.length; ++k)
 					animation[keys[k]] = Object.assign(animation[keys[k]] || {}, keyframe);
 				if(!animation['from'] && !animation['0%'])
